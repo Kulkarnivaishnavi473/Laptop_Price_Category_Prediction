@@ -51,14 +51,15 @@ Target variable: Price
 
 The dataset includes both categorical and numerical variables, requiring structured preprocessing.
 
+---
 
 # 🔵 Regression: Laptop Price Prediction
----
+
 📌 Problem Definition
 
 The regression task focuses on predicting the exact market price of a laptop based on its hardware specifications and user-related features.
 
---
+---
 
 # 🤖 Models Implemented
 
@@ -89,7 +90,7 @@ XGBoost achieved the best overall performance due to its ability to capture comp
 ---
 
 # 🔵 Classification: Laptop Price Category Prediction
----
+
 📌 Problem Definition
 
 The regression task was extended into a classification problem by categorizing laptops into predefined price segments.
