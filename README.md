@@ -1,12 +1,15 @@
-💻 Laptop Price & Category Prediction
-End-to-End Machine Learning System (Regression + Classification)
+# 💻 Laptop Price & Category Prediction
+### End-to-End Machine Learning System (Regression + Classification)
 
-📌 Project Overview
-#
+---
+
+#📌 Project Overview
+
 This project implements a complete supervised machine learning pipeline designed to predict laptop prices and classify laptops into price categories based on hardware specifications and user feedback data.
 
 The objective was not only to build predictive models, but to deeply understand how real-world machine learning systems are structured, evaluated, and improved.
 
+---
 
 🎯 Objectives
 #
