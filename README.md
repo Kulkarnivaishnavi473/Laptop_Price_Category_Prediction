@@ -3,7 +3,7 @@
 
 ---
 
-#📌 Project Overview
+# 📌 Project Overview
 
 This project implements a complete supervised machine learning pipeline designed to predict laptop prices and classify laptops into price categories based on hardware specifications and user feedback data.
 
@@ -11,8 +11,8 @@ The objective was not only to build predictive models, but to deeply understand 
 
 ---
 
-🎯 Objectives
-#
+# 🎯 Objectives
+
 The primary objectives of this project were:
 
 To build a regression model capable of predicting laptop prices accurately.
@@ -25,12 +25,13 @@ To analyze feature importance and interpret model behavior.
 
 To understand real-world challenges in ML preprocessing and deployment.
 
+---
 
-📊 Dataset Description
-#
+# 📊 Dataset Description
+
 The dataset consists of 823 laptop records containing technical specifications, system configurations, and customer feedback metrics.
 
-Key features include:
+# Key features include:
 
 Brand and processor details
 
@@ -51,14 +52,16 @@ Target variable: Price
 The dataset includes both categorical and numerical variables, requiring structured preprocessing.
 
 
-🔵 Regression: Laptop Price Prediction
+# 🔵 Regression: Laptop Price Prediction
+---
 📌 Problem Definition
-#
+
 The regression task focuses on predicting the exact market price of a laptop based on its hardware specifications and user-related features.
 
+--
 
-🤖 Models Implemented
-#
+# 🤖 Models Implemented
+
 The following regression models were trained and compared:
 
 Linear Regression
@@ -69,9 +72,10 @@ XGBoost Regressor
 
 Each model was evaluated to understand differences in linear vs non-linear learning behavior.
 
+---
 
-📈 Evaluation Metrics
-#
+# 📈 Evaluation Metrics
+
 Model performance was measured using:
 
 Mean Absolute Error (MAE) to measure average prediction deviation.
@@ -82,15 +86,18 @@ R² Score to evaluate goodness of fit.
 
 XGBoost achieved the best overall performance due to its ability to capture complex feature interactions.
 
+---
 
-🔵 Classification: Laptop Price Category Prediction
+# 🔵 Classification: Laptop Price Category Prediction
+---
 📌 Problem Definition
-#
+
 The regression task was extended into a classification problem by categorizing laptops into predefined price segments.
 
+---
 
-🏷️ Categories Defined
-#
+# 🏷️ Categories Defined
+
 Laptops were categorized into:
 
 Budget
@@ -101,9 +108,10 @@ Premium
 
 This transformation helped explore supervised classification techniques alongside regression.
 
+---
 
-🤖 Models Implemented
-#
+# 🤖 Models Implemented
+
 The following classification models were trained and evaluated:
 
 Logistic Regression
@@ -114,9 +122,10 @@ XGBoost Classifier
 
 Each model demonstrated different strengths in handling class imbalance and feature interactions.
 
+---
 
-📊 Evaluation Metrics
-#
+# 📊 Evaluation Metrics
+
 Classification performance was measured using:
 
 Accuracy
@@ -131,9 +140,10 @@ Confusion Matrix
 
 This reinforced the conceptual difference between regression evaluation and classification evaluation.
 
+---
 
-🛠️ Machine Learning Pipeline Design
-#
+# 🛠️ Machine Learning Pipeline Design
+
 🔹 Data Preprocessing
 
 Categorical features were encoded using OneHotEncoder, while numerical features were carefully cleaned and formatted to ensure consistency.
@@ -146,9 +156,10 @@ ColumnTransformer was used to apply selective transformations, ensuring a struct
 
 Scikit-learn Pipelines were implemented to ensure that training and inference followed identical preprocessing steps, reducing deployment inconsistencies.
 
+---
 
-🔍 Feature Importance Analysis
-#
+# 🔍 Feature Importance Analysis
+
 Feature importance analysis was conducted to interpret which attributes most strongly influenced price prediction and category classification.
 
 Key insights included:
@@ -163,9 +174,10 @@ Graphics memory contributes to high-end price prediction.
 
 This step improved model interpretability and business understanding.
 
+---
 
-🚧 Challenges and Debugging Experience
-#
+# 🚧 Challenges and Debugging Experience
+
 During model development and deployment attempts, several practical challenges were encountered:
 
 Feature shape mismatch errors between training and inference.
@@ -178,12 +190,13 @@ Handling categorical feature variations during prediction.
 
 These challenges provided valuable insights into real-world ML system robustness.
 
+---
 
-🧠 Key Learnings
-#
+# 🧠 Key Learnings
+
 This project significantly strengthened my understanding of supervised learning systems.
 
-Major takeaways include:
+# Major takeaways include:
 
 Clear understanding of how .fit() optimizes model parameters.
 
@@ -197,9 +210,10 @@ Real-world importance of consistent preprocessing pipelines.
 
 Awareness of deployment-time challenges in ML systems.
 
+---
 
-🧰 Technologies Used
-#
+# 🧰 Technologies Used
+
 Python
 
 Pandas & NumPy
@@ -212,9 +226,10 @@ Matplotlib
 
 Jupyter Notebook
 
+---
 
-🚀 Future Improvements
-#
+# 🚀 Future Improvements
+
 Implement SHAP for advanced explainability.
 
 Add cross-validation for more robust evaluation.
@@ -223,9 +238,10 @@ Deploy using FastAPI or Streamlit.
 
 Extend into a laptop recommendation engine.
 
+---
 
-🏁 Final Reflection
-#
+# 🏁 Final Reflection
+
 This project represents a complete learning cycle — from understanding supervised learning fundamentals to building, evaluating, interpreting, debugging, and attempting deployment of a real-world ML system.
 
 It strengthened both my technical foundation and my engineering mindset toward building reliable machine learning solutions.
